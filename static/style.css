@@ -12,13 +12,6 @@ body {
     font-style: normal;
 }
 
-h1 {
-    font-family: 'BehanceFont', Arial, sans-serif;
-    font-size: 8rem;
-    margin-bottom: 30px;
-    color: #343233;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
-}
 
 .game {
     max-width: 1100px;
@@ -28,7 +21,11 @@ h1 {
 
 h1 {
     text-align: center;
-    font-size: 42px;
+    font-family: 'BehanceFont', Arial, sans-serif;
+    font-size: 8rem;
+    margin-bottom: 30px;
+    color: #343233;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
 
 .hud {
