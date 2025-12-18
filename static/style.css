@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background: radial-gradient(circle at top, #ffdcf7, #5c99d3);
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+}
+
+@font-face {
+    font-family: 'BehanceFont';
+    src: url('behance-64efa07836cc4.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'BehanceFont', Arial, sans-serif;
+    font-size: 8rem;
+    margin-bottom: 30px;
+    color: #343233;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.game {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.hud {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0,0,0,0.35);
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+#turn.player { color: #7CFF7C; }
+#turn.computer { color: #FF9E9E; }
+
+.controls {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    padding: 10px 16px;
+    border-radius: 12px;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+    color: white;
+    font-size: 15px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.pile {
+    background: rgba(255,255,255,0.15);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 15px 0;
+}
+
+.stone {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #fff, #ffd700);
+}
+
+.message {
+    text-align: center;
+    margin: 15px;
+    font-size: 18px;
+}

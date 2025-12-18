@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Игра Ним</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+
+<div class="game">
+    <h1> Игра Ним</h1>
+
+    <div class="hud">
+        <div id="turn">Ваш ход</div>
+        <div id="nim">Ним-сумма: —</div>
+    </div>
+
+    <div class="controls">
+        <input id="k" type="number" value="3" min="1" max="7">
+        <button onclick="startGame('random')">🎲 Случайно</button>
+        <button onclick="startGame('classic')">📘 Классика</button>
+    </div>
+
+    <div id="message" class="message"></div>
+    <div id="board" class="board"></div>
+</div>
+
+</body>
+</html>
