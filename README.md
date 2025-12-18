@@ -64,16 +64,20 @@
 ### 1️⃣ Клонировать репозиторий
 ```bash
 git clone https://github.com/ТВОЙ_НИК/nim-game.git
-cd nim-game```
+cd nim-game
+```
 
 ### 2️⃣ Установить зависимости
 ```bash
-pip install flask```
+pip install flask
+```
 
 ### 3️⃣ Запустить сервер
 ```bash
-python app.py```
+python app.py
+```
 
 ### 4️⃣ Открыть в браузере
 ```cpp
-http://127.0.0.1:5000```
+http://127.0.0.1:5000
+```
